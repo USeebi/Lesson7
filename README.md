@@ -1,6 +1,6 @@
 # Lesson7
 
-These are resources to join Lesson 2.
+These are resources to join Lesson 7.
 
 - rrt_exploration ROS package imported from http://www.yahboom.net/study/YDLIDAR-X3 for autonomous exploration
 
