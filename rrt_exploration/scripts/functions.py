@@ -21,7 +21,7 @@ class robot:
     def __init__(self,name):
         self.assigned_point = []
         self.global_frame = rospy.get_param('~global_frame', 'map')
-        self.robot_frame = rospy.get_param('~robot_frame', 'base_link')
+        self.robot_frame = rospy.get_param('~robot_frame', 'chassis')
         self.plan_service = rospy.get_param( '~plan_service', '/move_base/NavfnROS/make_plan')
         self.listener = tf.TransformListener()
         self.listener.waitForTransform(
